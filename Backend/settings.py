@@ -48,7 +48,7 @@ INSTALLED_APPS = [
     # custom apps
 
     "userprofile",
-    # "post",
+    "post",
 ]
 
 MIDDLEWARE = [

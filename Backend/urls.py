@@ -24,8 +24,8 @@ urlpatterns = [
     # auth api
     path('api-token-auth/', restAuthViews.obtain_auth_token),
     # api-views
-    path("", include("post.api.urls")),
     path("", include("userprofile.api.urls")),
+    path("", include("post.api.urls")),
 ]
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
