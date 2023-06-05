@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     "colorfield",
     "rest_framework",
     "rest_framework.authtoken",
+    "django_filters",
     "corsheaders",
     # custom apps
 
